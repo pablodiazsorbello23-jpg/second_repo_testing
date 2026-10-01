@@ -20,3 +20,6 @@ git log : Ver el registro de comandos creados -> número en amarillo es el id de
 
 git push origin master : Sube todos los archivos para vincularlos
 
+git commit -m "tesis 2" : Registra los cambios hechos para subir -> luego repetir "git push origin master"
+
+git checkout : para volver a algún backup anterior y retomar desde ahí o arrancar algo nuevo desde ese punto.
