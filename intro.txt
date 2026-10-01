@@ -23,3 +23,7 @@ git push origin master : Sube todos los archivos para vincularlos
 git commit -m "tesis 2" : Registra los cambios hechos para subir -> luego repetir "git push origin master"
 
 git checkout id_del_commit (el número en amarillo): para volver a algún backup anterior y retomar desde ahí o arrancar algo nuevo desde ese punto.
+
+Archivos README : archivos que se pueden agregar en la web
+
+git pull origin master : Saca de la nube y baja a PC archivos que cargué, por ej, archivos README
