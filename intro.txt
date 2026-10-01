@@ -1,0 +1,13 @@
+Bienvenido a mi repo!
+
+Lista de comandos:
+
+git init : Inicializa git en el proyecto
+
+git remote add origin <enlace_repo> : Conecta con el repositorio que necesito vincular. Colocar enlace sacado de la página principla cuando se crea un nuevo repo
+
+git remote -v : Ver a qué está vinculado
+
+git add intro.txt : Registra el archivo para eventualmente enviarlo al grupo
+
+git status: Qué archivos están registrados y cuáles nuevo
