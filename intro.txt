@@ -11,3 +11,12 @@ git remote -v : Ver a qué está vinculado
 git add intro.txt : Registra el archivo para eventualmente enviarlo al grupo
 
 git status: Qué archivos están registrados y cuáles nuevo
+
+git add . : Registra todos los archivos creados que estén sin registrados
+
+git commit -m "tesis 1" : Crea commits
+
+git log : Ver el registro de comandos creados -> número en amarillo es el id del commit para no confundir con otros
+
+git push origin master : Sube todos los archivos para vincularlos
+
