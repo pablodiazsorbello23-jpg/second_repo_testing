@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos para más información sobre nuestros productos y servicios.">
+    <meta name="keywords" content="contacto, información, productos">
+    <title>Black and White</title>
+    <link rel="icon" href="./src/assets/images/B&White.png">
 </head>
     
 <body>
@@ -22,8 +25,29 @@
     <main>
         <section>
             <h1>Contacto</h1>
+            <h2>¿Tenés alguna consulta, reclamo o querés hacer una devolución?</h2>
+            <p>Estamos aquí para ayudarte. Por favor, completá el siguiente formulario y nos comunicaremos con vos a la brevedad.</p>
+            <form>
+                <label for="nombre">
+                    Nombre <br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </label>
+                <br>
+                <br>
+                <label for="email">
+                    Email <br>
+                    <input type="email" id="email" name="email" required>
+                </label>
+                <br>
+                <br>
+                <label for="comentarios">
+                    Comentarios <br>
+                </label>
+                <textarea name="comentarios" rows="4" cols="50" placeholder="Dejanos tu consulta"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
         </section>
     </main>
-        
 </body>
 </html>
